@@ -9,22 +9,22 @@ Begin
      vResp:='S';
      Repeat
 
-                    {S” COME«AR¡ O LOOPING PRINCIPAL SE A RESPOSTA FOR SIM}
+                    {S√ì COME√áAR√Å O LOOPING PRINCIPAL SE A RESPOSTA FOR SIM}
            if (vResp='S')or(vResp='s')then
-           Begin {5.001           InÌcio para a CondiÁ„o da Resposta CASO for positiva}
+           Begin {5.001           In√≠cio para a Condi√ß√£o da Resposta CASO for positiva}
 
      Begin  {1.00         Begin do Repeat - LOOPING GERAL}
      while (vBack=0)do
-         Begin          {1.01      begin do  while para condiÁ„o vBack caso o usu·rio digite um valor inv·lido}
+         Begin          {1.01      begin do  while para condi√ß√£o vBack caso o usu√°rio digite um valor inv√°lido}
          if (vExibido=true)then
          begin {01}
          vExibido:=false;
          clrscr;
          end;  {01}
          writeln('');
-         write('Que dia vocÍ nasceu? ');
+         write('Que dia voc√™ nasceu? ');
          Read(DiaNasc);
-         write('E qual foi o mÍs? ');
+         write('E qual foi o m√™s? ');
          Read(MesNasc);
 
          if (DiaNasc>31)and(MesNasc=1)then
@@ -32,7 +32,7 @@ Begin
          vErro:=true;
          clrscr;
          writeln('');
-         writeln('Janeiro tem 31 dias. Digite um valor v·lido.');
+         writeln('Janeiro tem 31 dias. Digite um valor v√°lido.');
          vBack:=0;
          end; {02}
             if (DiaNasc<32)and(MesNasc=1)then
@@ -47,7 +47,7 @@ Begin
          vErro:=true;
          clrscr;
          writeln('');
-         writeln('Fevereiro tem no m·xino 29 dias. Digite um valor v·lido.');
+         writeln('Fevereiro tem no m√°xino 29 dias. Digite um valor v√°lido.');
          vBack:=0;
          end;   {04}
             if (DiaNasc<30)and(MesNasc=2)then
@@ -61,7 +61,7 @@ Begin
             vErro:=true;
             clrscr;
             writeln('');
-            writeln('MarÁo tem apenas 31 dias. Digite um valor v·lido.');
+            writeln('Mar√ßo tem apenas 31 dias. Digite um valor v√°lido.');
             vBack:=0;
             end;   {06}
                if (DiaNasc<32)and(MesNasc=3)then
@@ -75,7 +75,7 @@ Begin
                vErro:=true;
                clrscr;
                writeln('');
-               writeln('Abril tem apenas 30 dias. Digite um valor v·lido.');
+               writeln('Abril tem apenas 30 dias. Digite um valor v√°lido.');
                vBack:=0;
                end;   {08}
                   if (DiaNasc<31)and(MesNasc=4)then
@@ -89,7 +89,7 @@ Begin
                   vErro:=true;
                   clrscr;
                   writeln('');
-                  writeln('Maio tem apenas 31 dias. Digite um valor v·lido.');
+                  writeln('Maio tem apenas 31 dias. Digite um valor v√°lido.');
                   vBack:=0;
                   end;   {10}
                      if (DiaNasc<32)and(MesNasc=5)then
@@ -103,7 +103,7 @@ Begin
                      vErro:=true;
                      clrscr;
                      writeln('');
-                     writeln('Junho tem apenas 30 dias. Digite um valor v·lido.');
+                     writeln('Junho tem apenas 30 dias. Digite um valor v√°lido.');
                      vBack:=0;
                      end;   {12}
                         if (DiaNasc<31)and(MesNasc=6)then
@@ -117,7 +117,7 @@ Begin
                         vErro:=true;
                         clrscr;
                         writeln('');
-                        writeln('Julho tem apenas 31 dias. Digite um valor v·lido.');
+                        writeln('Julho tem apenas 31 dias. Digite um valor v√°lido.');
                         vBack:=0;
                         end;   {14}
                            if (DiaNasc<32)and(MesNasc=7)then
@@ -131,7 +131,7 @@ Begin
                            vErro:=true;
                            clrscr;
                            writeln('');
-                           writeln('Agosto tem apenas 31 dias. Digite um valor v·lido.');
+                           writeln('Agosto tem apenas 31 dias. Digite um valor v√°lido.');
                            vBack:=0;
                            end;    {16}
                               if (DiaNasc<32)and(MesNasc=8)then
@@ -145,7 +145,7 @@ Begin
                               vErro:=true;
                               clrscr;
                               writeln('');
-                              writeln('Setembro tem apenas 30 dias. Digite um valor v·lido.');
+                              writeln('Setembro tem apenas 30 dias. Digite um valor v√°lido.');
                               vBack:=0;
                               end;   {18}
                                  if (DiaNasc<31)and(MesNasc=9)then
@@ -159,7 +159,7 @@ Begin
                                  vErro:=true;
                                  clrscr;
                                  writeln('');
-                                 writeln('Outubro tem apenas 31 dias. Digite um valor v·lido.');
+                                 writeln('Outubro tem apenas 31 dias. Digite um valor v√°lido.');
                                  vBack:=0;
                                  end;   {20}
                                     if (DiaNasc<32)and(MesNasc=10)then
@@ -173,7 +173,7 @@ Begin
                                     vErro:=true;
                                     clrscr;
                                     writeln('');
-                                    writeln('Novembro tem apenas 30 dias. Digite um valor v·lido.');
+                                    writeln('Novembro tem apenas 30 dias. Digite um valor v√°lido.');
                                     vBack:=0;
                                     end;   {22}
                                        if (DiaNasc<31)and(MesNasc=11)then
@@ -187,7 +187,7 @@ Begin
                                        vErro:=true;
                                        clrscr;
                                        writeln('');
-                                       writeln('Dezembro tem apenas 31 dias. Digite um valor v·lido.');
+                                       writeln('Dezembro tem apenas 31 dias. Digite um valor v√°lido.');
                                        vBack:=0;
                                        end;   {24}
                                           if (DiaNasc<32)and(MesNasc=12)then
@@ -198,220 +198,220 @@ Begin
                   if (MesNasc>12)then
                   begin   {26}
                   clrscr;
-                  writeln('O MÍs È entre 1 ‡ 12. Tente novamente.');
+                  writeln('O M√™s √© entre 1 √† 12. Tente novamente.');
                   vBack:=0;
                   end;    {26}
-         end;   {1.01      End do Begin do While para condiÁ„o vBack}
+         end;   {1.01      End do Begin do While para condi√ß√£o vBack}
 
      end; {1.00        End do Begin LOOPING GERAL}
 
-         {*/*/*/*/*/*/*/ 2™ Etapa - ClassificaÁ„o dos signos \*\*\*\*\*\*\*\*\*\*}
+         {*/*/*/*/*/*/*/ 2¬™ Etapa - Classifica√ß√£o dos signos \*\*\*\*\*\*\*\*\*\*}
 
 
-   {A SEGUNDA EPATA S” SER¡ EXIBIDA CASO A CONDI«√O DE ERRO SEJA FALSA, CASO CONTR¡RIO
-                                                    O USU¡RIO FICAR¡ NO LOOPING ACIMA
-                                          AT… O PROGRAMA RECEBER UM VALOR V¡LIDO.}
+   {A SEGUNDA EPATA S√ì SER√Å EXIBIDA CASO A CONDI√á√ÉO DE ERRO SEJA FALSA, CASO CONTR√ÅRIO
+                                                    O USU√ÅRIO FICAR√Å NO LOOPING ACIMA
+                                          AT√â O PROGRAMA RECEBER UM VALOR V√ÅLIDO.}
 
  if (DiaNasc>20)and(MesNasc=3)and(vErro=false)then
     Begin {27}
-    vSigno:='¡ries';
+    vSigno:='√Åries';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;  {27}
  if (DiaNasc<21)and(MesNasc=4)and(vErro=false)then
     Begin {28}
-    vSigno:='¡ries';
+    vSigno:='√Åries';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;  {28}
     if (DiaNasc>20)and(MesNasc=4)and(vErro=false)then
         Begin  {29}
         vSigno:='Touro';
         writeln('');
-        Writeln('O seu signo È ',vSigno,'.');
+        Writeln('O seu signo √© ',vSigno,'.');
         end;   {29}
     if (DiaNasc<21)and(MesNasc=5)and(vErro=false)Then
         Begin  {30}
         vSigno:='Touro';
         writeln('');
-        Writeln('O seu signo È ',vSigno,'.');
+        Writeln('O seu signo √© ',vSigno,'.');
         end;   {30}
         if (DiaNasc>20)and(MesNasc=5)and(vErro=false)then
             Begin  {31}
-            vSigno:='GÍmeos';
+            vSigno:='G√™meos';
             writeln('');
-            Writeln('O seu signo È ',vSigno,'.');
+            Writeln('O seu signo √© ',vSigno,'.');
             end;   {31}
         if (DiaNasc<21)and(MesNasc=6)and(vErro=false)then
             Begin  {32}
-            vSigno:='GÍmeos';
+            vSigno:='G√™meos';
             writeln('');
-            Writeln('O seu signo È ',vSigno,'.');
+            Writeln('O seu signo √© ',vSigno,'.');
             end;   {32}
 
  if (DiaNasc>20)and(MesNasc=6)and(vErro=false)then
     Begin   {33}
-    vSigno:='C‚ncer';
+    vSigno:='C√¢ncer';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;    {33}
  if (DiaNasc<22)and(MesNasc=7)and(vErro=false)then
     Begin   {34}
-    vSigno:='C‚ncer';
+    vSigno:='C√¢ncer';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;    {34}
     if (DiaNasc>21)and(MesNasc=7)and(vErro=false)then
        Begin   {35}
-       vSigno:='Le„o';
+       vSigno:='Le√£o';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;    {35}
     if (DiaNasc<23)and(MesNasc=8)and(vErro=false)then
        Begin  {36}
-       vSigno:='Le„o';
+       vSigno:='Le√£o';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;   {36}
        if (DiaNasc>22)and(MesNasc=8)and(vErro=false)then
           Begin {37}
           vSigno:='Virgem';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;   {37}
        if (DiaNasc<23)and(MesNasc=9)and(vErro=false)then
           Begin  {38}
           vSigno:='Virgem';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;   {38}
 
  if (DiaNasc>22)and(MesNasc=9)and(vErro=false)then
     Begin {39}
     vSigno:='Libra';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;  {39}
  if (Dianasc<23)and(MesNasc=10)and(vErro=false)then
     Begin {40}
     vSigno:='Libra';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;  {40}
     if (DiaNasc>22)and(MesNasc=10)and(vErro=false)then
        Begin  {41}
-       vSigno:='Escorpi„o';
+       vSigno:='Escorpi√£o';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;   {41}
     if (DiaNasc<22)and(MesNasc=11)and(vErro=false)then
        Begin  {42}
-       vSigno:='Escorpi„o';
+       vSigno:='Escorpi√£o';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;   {42}
        if (DiaNasc>21)and(MesNasc=11)and(vErro=false)then
           Begin  {43}
-          vSigno:='Sagit·rio';
+          vSigno:='Sagit√°rio';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;   {43}
        if (DiaNasc<22)and(MesNasc=12)and(vErro=false)then
           Begin  {44}
-          vSigno:='Sagit·rio';
+          vSigno:='Sagit√°rio';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;   {44}
 
  if (DiaNasc>21)and(MesNasc=12)and(vErro=false)then
     Begin    {45}
-    vSigno:='CapricÛrnio';
+    vSigno:='Capric√≥rnio';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;     {45}
  if (DiaNasc<21)and(MesNasc=1)and(vErro=false)then
     Begin    {46}
-    vSigno:='CapricÛrnio';
+    vSigno:='Capric√≥rnio';
     writeln('');
-    Writeln('O seu signo È ',vSigno,'.');
+    Writeln('O seu signo √© ',vSigno,'.');
     end;     {46}
     if (DiaNasc>20)and(MesNasc=1)and(vErro=false)then
        Begin  {47}
-       vSigno:='Aqu·rio';
+       vSigno:='Aqu√°rio';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;   {47}
     if (DiaNasc<20)and(MesNasc=2)and(vErro=false)then
        Begin  {48}
-       vSigno:='Aqu·rio';
+       vSigno:='Aqu√°rio';
        writeln('');
-       Writeln('O seu signo È ',vSigno,'.');
+       Writeln('O seu signo √© ',vSigno,'.');
        end;   {48}
        if (DiaNasc>19)and(MesNasc=2)and(vErro=false)then
           Begin   {49}
           vSigno:='Peixes';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;    {49}
        if (DiaNasc<21)and(MesNasc=3)and(vErro=false)then
           Begin   {50}
           vSigno:='Peixes';
           writeln('');
-          Writeln('O seu signo È ',vSigno,'.');
+          Writeln('O seu signo √© ',vSigno,'.');
           end;    {50}
-          {############################ 3™ Etapa - CaracterÌstica dos signos #####################}
- if (vSigno='¡ries') and (vErro=false)then
+          {############################ 3¬™ Etapa - Caracter√≠stica dos signos #####################}
+ if (vSigno='√Åries') and (vErro=false)then
     Begin  {51}
     writeln('---------------------------------------------------------------------');
-    writeln('O signo ',vSigno,' È o 1∫ na casa dos ZoodÌacos e 3∫ signo do ano.');
+    writeln('O signo ',vSigno,' √© o 1¬∫ na casa dos Zood√≠acos e 3¬∫ signo do ano.');
     writeln('');
-    writeln('VocÍ È uma pessoa impulsiva, ciumenta, precisa mudar essa sua personalidade.');
+    writeln('Voc√™ √© uma pessoa impulsiva, ciumenta, precisa mudar essa sua personalidade.');
     vExibido:=true;
     writeln('');
     end;   {41}
         if (vSigno='Touro') and (vErro=false)then
         Begin  {52}
         writeln('---------------------------------------------------------------------');
-        writeln('O signo ',vSigno,' È o 2∫ na casa dos ZoodÌacos e 4∫ signo do ano.');
+        writeln('O signo ',vSigno,' √© o 2¬∫ na casa dos Zood√≠acos e 4¬∫ signo do ano.');
         writeln('');
-        writeln('A sua simpatia È contagiante, mas cuidado com as suas teimosias.');
+        writeln('A sua simpatia √© contagiante, mas cuidado com as suas teimosias.');
         vExibido:=true;
         writeln('');
         end;   {52}
-            if (vSigno='GÍmeos') and (vErro=false)then
+            if (vSigno='G√™meos') and (vErro=false)then
             Begin   {53}
             writeln('---------------------------------------------------------------------');
-            writeln('O signo ',vSigno,' È o 3∫ na casa dos ZoodÌacos e 5∫ signo do ano.');
+            writeln('O signo ',vSigno,' √© o 3¬∫ na casa dos Zood√≠acos e 5¬∫ signo do ano.');
             writeln('');
-            writeln('VocÍ È como um passarinho gosta da liberdade e do n„o compromisso.');
+            writeln('Voc√™ √© como um passarinho gosta da liberdade e do n√£o compromisso.');
             vExibido:=true;
             writeln('');
             end;    {53}
 
-if (vSigno='C‚ncer') and (vErro=false)then
+if (vSigno='C√¢ncer') and (vErro=false)then
    Begin  {54}
    writeln('---------------------------------------------------------------------');
-   writeln('O signo ', vSigno,' È o 4∫ na casa dos ZoodÌacos e 6∫ signo do ano.');
+   writeln('O signo ', vSigno,' √© o 4¬∫ na casa dos Zood√≠acos e 6¬∫ signo do ano.');
    writeln('');
-   writeln('O seu carinho È importante nos dias de hoje, apesar de ser difÌcil tentar da  a-tenÁ„o a todos a sua volta.');
+   writeln('O seu carinho √© importante nos dias de hoje, apesar de ser dif√≠cil tentar da  aten√ß√£o a todos a sua volta.');
    vExibido:=true;
    writeln('');
    end;   {54}
-       if (vSigno='Le„o') and (vErro=false)then
+       if (vSigno='Le√£o') and (vErro=false)then
        Begin   {55}
        writeln('---------------------------------------------------------------------');
-       writeln('O signo ',vSigno,' È o 5∫ na casa dos ZoodÌacos e 7∫ signo do ano.');
+       writeln('O signo ',vSigno,' √© o 5¬∫ na casa dos Zood√≠acos e 7¬∫ signo do ano.');
        writeln('');
-       writeln('VocÍ tem muita alto-estima, o que te estraga È o seu orgulho.');
+       writeln('Voc√™ tem muita alto-estima, o que te estraga √© o seu orgulho.');
        vExibido:=true;
        writeln('');
        end;    {55}
            if (vSigno='Virgem') and (vErro=false)then
            Begin  {56}
            writeln('---------------------------------------------------------------------');
-           writeln('O signo ',vSigno,' È o 6∫ na casa dos ZoodÌacos e 8∫ signo do ano.');
+           writeln('O signo ',vSigno,' √© o 6¬∫ na casa dos Zood√≠acos e 8¬∫ signo do ano.');
            writeln('');
-           writeln('VocÍ È uma pessoa agitada e impaciente, n„o gosta de esperar.');
+           writeln('Voc√™ √© uma pessoa agitada e impaciente, n√£o gosta de esperar.');
            vExibido:=true;
            writeln('');
            end;   {56}
@@ -419,67 +419,67 @@ if (vSigno='C‚ncer') and (vErro=false)then
 if (vSigno='Libra') and (vErro=false)then
    Begin  {57}
    writeln('---------------------------------------------------------------------');
-   writeln('O signo ', vSigno,' È o 7∫ na casa dos ZoodÌacos e 9∫ signo do ano.');
+   writeln('O signo ', vSigno,' √© o 7¬∫ na casa dos Zood√≠acos e 9¬∫ signo do ano.');
    writeln('');
-   writeln('O seu equilÌbrio na vida faz desejar cada vez mais as coisas, tornando-a ambici-osa.');
+   writeln('O seu equil√≠brio na vida faz desejar cada vez mais as coisas, tornando-a ambiciosa.');
    vExibido:=true;
    writeln('');
    end;   {57}
-       if (vSigno='Escorpi„o') and (vErro=false)then
+       if (vSigno='Escorpi√£o') and (vErro=false)then
        Begin   {58}
        writeln('---------------------------------------------------------------------');
-       writeln('O signo ', vSigno,' È o 8∫ na casa dos ZoodÌacos e 10∫ signo do ano.');
+       writeln('O signo ', vSigno,' √© o 8¬∫ na casa dos Zood√≠acos e 10¬∫ signo do ano.');
        writeln('');
-       writeln('VocÍ È sossegado, tanto que tem sempre interesse de proteger o que È seu.');
+       writeln('Voc√™ √© sossegado, tanto que tem sempre interesse de proteger o que √© seu.');
        vExibido:=true;
        writeln('');
        end;   {58}
-           if (vSigno='Sagit·rio') and (vErro=false)then
+           if (vSigno='Sagit√°rio') and (vErro=false)then
            Begin  {59}
            writeln('---------------------------------------------------------------------');
-           writeln('O signo ', vSigno,' È o 9∫ na casa dos ZoodÌacos e 11∫ signo do ano.');
+           writeln('O signo ', vSigno,' √© o 9¬∫ na casa dos Zood√≠acos e 11¬∫ signo do ano.');
            writeln('');
-           writeln('Gosta de ser o centro das atenÁıes e prisa muito a sua liberdade em tudo.');
+           writeln('Gosta de ser o centro das aten√ß√µes e prisa muito a sua liberdade em tudo.');
            vExibido:=true;
            writeln('');
            end;   {59}
 
-if (vSigno='CapricÛrnio') and (vErro=false)then
+if (vSigno='Capric√≥rnio') and (vErro=false)then
    Begin  {60}
    writeln('---------------------------------------------------------------------');
-   writeln('O signo ', vSigno,' È o 10∫ na casa dos ZoodÌacos e 12∫ signo do ano.');
+   writeln('O signo ', vSigno,' √© o 10¬∫ na casa dos Zood√≠acos e 12¬∫ signo do ano.');
    writeln('');
-   writeln('VocÍ possui uma imaginaÁ„o vÈrtil e possui dificuldades para se expressar.');
+   writeln('Voc√™ possui uma imagina√ß√£o fertil e possui dificuldades para se expressar.');
    vExibido:=true;
    writeln('');
    end;   {60}
-       if (vSigno='Aqu·rio') and (vErro=false)then
+       if (vSigno='Aqu√°rio') and (vErro=false)then
        Begin   {61}
        writeln('---------------------------------------------------------------------');
-       writeln('O signo ', vSigno,' È o 11∫ na casa dos ZoodÌacos e 1∫ signo do ano.');
+       writeln('O signo ', vSigno,' √© o 11¬∫ na casa dos Zood√≠acos e 1¬∫ signo do ano.');
        writeln('');
-       writeln('VocÍ È muito desligado nas coisas a sua volta e se d· muito bem com pessoas que tenha equilÌbrio nas coisas.');
+       writeln('Voc√™ √© muito desligado nas coisas a sua volta e se d√° muito bem com pessoas que tenha equil√≠brio nas coisas.');
        vExibido:=true;
        writeln('');
        end;    {61}
            if (vSigno='Peixes') and (vErro=false)then
            Begin   {62}
            writeln('---------------------------------------------------------------------');
-           writeln('O signo ', vSigno,' È o 12∫ na casa dos ZoodÌacos e 2∫ signo do ano.');
+           writeln('O signo ', vSigno,' √© o 12¬∫ na casa dos Zood√≠acos e 2¬∫ signo do ano.');
            writeln('');
-           writeln('Seu romantismo È o que te chama a atenÁ„o e sua alegria contagia e incomoda a alguns.');
+           writeln('Seu romantismo √© o que te chama a aten√ß√£o e sua alegria contagia e incomoda a alguns. Larga de ser bobo demais.');
            vExibido:=true;
            writeln('');
            end;    {62}
-           end; {5.001    End do Begin apÛs CondiÁ„o para Resposta receber SIM}
+           end; {5.001    End do Begin ap√≥s Condi√ß√£o para Resposta receber SIM}
 
-           if (vBack=1)then    {Se o vBack tiver o valor 1 SIGNIFICA QUE O USU¡RIO DIGITOU UM VALOR V¡LIDO
-                                                                     e o programa ir· exibir... }
+           if (vBack=1)then    {Se o vBack tiver o valor 1 SIGNIFICA QUE O USU√ÅRIO DIGITOU UM VALOR V√ÅLIDO
+                                                                     e o programa ir√° exibir... }
            writeln('Deseja continuar? {S ou N}');             {...a pergunta ao lado e em seguida...}
-           readln(vResp);                                {...o Prog. ir· receber a resposta}
+           readln(vResp);                                {...o Prog. ir√° receber a resposta}
 
            vBack:=0;
 
-           Until(vResp='N')or(vResp='n');              {AT… O PROG. RECEBER A RESPOSTA NEGATIVA ELE FAR¡ TUDO NOVAMENTE...}
+           Until(vResp='N')or(vResp='n');              {AT√â O PROG. RECEBER A RESPOSTA NEGATIVA ELE FAR√Å TUDO NOVAMENTE...}
            donewincrt;            {FECHA A JANELA}                                       {...CASO DIGITE OUTRO VALOR DIFE-}
-End.                                                                                     {RENTE IR¡ FICAR ESPERANDO OU S OU N.}
+End.                                                                                     {RENTE IR√Å FICAR ESPERANDO OU S OU N.}
